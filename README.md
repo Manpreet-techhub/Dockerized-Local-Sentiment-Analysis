@@ -1,0 +1,2 @@
+This repository contains a Python based frontend (Flask) and backend (FastAPI) implementing a local sentiment analysis application. The project uses a Hugging Face Transformers library to analyze text and output the predicted sentiment with its score via a user friendly web interface.
+For security, all processing runs locally. The entire application is containerized with Docker, with separate srvices for the backend and frontend orchestrated via Docker Compose for easy deployment.
